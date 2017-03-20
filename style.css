@@ -145,3 +145,47 @@ a#menu {
 .profile {
 	border-radius: 50%;
 }
+
+/*Page 3*/
+
+/*Projects*/
+.project_1t {
+	-webkit-filter: blur(0px);
+}
+.project_1t:hover {
+	-webkit-filter: blur(0px);
+}
+.project_1 {
+	background-image: url(images/project1.jpeg);
+	background-size: 100%;
+	height: 200px;
+	width: 25%;
+	float: left;
+}
+
+.project_1:hover {
+	transition: 0.5s;
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+
+.project_2 {
+	height: 200px;
+	width: 25%;
+	background-color: #1976D2;
+	float: left;
+}
+
+.project_3 {
+	height: 200px;
+	width: 25%;
+	background-color: #03A9F4;
+	float: left;
+}
+
+.project_4 {
+	height: 200px;
+	width: 25%;
+	background-color: #00BCD4;
+	float: left;
+}
